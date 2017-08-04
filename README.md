@@ -1,2 +1,2 @@
 # AndroidPractices
-A project for learn Android 
+A project for learn Android SDK
