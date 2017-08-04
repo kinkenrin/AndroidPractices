@@ -17,16 +17,5 @@ public class MainActivity extends AppCompatActivity {
         Log.i("aa", "添加分支1");
         Log.i("aa", "添加分支1");
         Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
-        Log.i("aa", "添加分支1");
     }
 }
