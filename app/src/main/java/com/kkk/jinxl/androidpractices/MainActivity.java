@@ -11,5 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("aa", "添加分支1");
+        Log.i("aa", "添加分支1");
+        Log.i("aa", "添加分支1");
+        Log.i("aa", "添加分支1");
+        Log.i("aa", "添加分支1");
+        Log.i("aa", "添加分支1");
     }
 }
