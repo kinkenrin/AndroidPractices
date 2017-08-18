@@ -1,18 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kkk.jinxl.androidpractices.MainActivity">
+    android:orientation="vertical">
 
-    <TextView
+   <!-- <com.kkk.jinxl.androidpractices.weight.Canvas_1
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
 
-</android.support.constraint.ConstraintLayout>
+    <!-- <com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="80dp"
+         android:layout_marginTop="5dp"
+         android:orientation="vertical"
+         android:paddingLeft="10dp"
+         android:paddingRight="2dp"
+         app:angle="4dp"
+         app:arrowLocation="left">
+
+         <TextView
+             android:id="@+id/sobot_msg"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="3dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="5dp"
+             android:layout_marginTop="3dp"
+             android:lineSpacingExtra="2dp"
+             android:paddingTop="2dp"
+             android:text="safdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfs"
+             android:textSize="16sp"
+             android:visibility="visible" />
+     </com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout>-->
+
+
+    <com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        app:angle="4dp"
+        app:arrowHeight="10dp"
+        app:arrowLocation="right"
+        app:arrowPosition="10dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#7EC0EE">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3dp"
+            android:lineSpacingExtra="2dp"
+            android:paddingTop="2dp"
+            android:text="safdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfs"
+            android:textSize="16sp"
+            android:visibility="visible" />
+    </com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout>
+
+</LinearLayout>

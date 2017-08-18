@@ -87,10 +87,12 @@ public class Canvas_1 extends View {
 //        canvas.drawArc(200, 100, 800, 500, 20, 140, false, mPaint);
 
         Path path = new Path();
+        //画桃心
         path.addArc(200, 200, 400, 400, -225, 225);
         path.arcTo(400, 200, 600, 400, -180, 225, false);
         path.lineTo(400,542);
         path.close();
         canvas.drawPath(path,mPaint);
+
     }
 }
