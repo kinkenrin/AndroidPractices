@@ -83,7 +83,7 @@ public class Canvas_1 extends View {
         //画圆角矩形
 //        canvas.drawRoundRect(rectF,10,10,mPaint);
 
-        canvas.drawArc(200, 100, 800, 500, 0, -90, false, mPaint); // 绘制扇形
+//        canvas.drawArc(200, 100, 800, 500, 0, -90, true, mPaint); // 绘制扇形
 //        canvas.drawArc(200, 100, 800, 500, 20, 140, false, mPaint);
 
         Path path = new Path();
@@ -91,8 +91,19 @@ public class Canvas_1 extends View {
         path.addArc(200, 200, 400, 400, -225, 225);
         path.arcTo(400, 200, 600, 400, -180, 225, false);
         path.lineTo(400,542);
-        path.close();
+//        path.close();
+
+//        path.lineTo(100, 100); // 由当前位置 (0, 0) 向 (100, 100) 画一条直线
+//        path.rLineTo(100, 0);
+        mPaint.setStyle(Paint.Style.FILL);
+        canvas.drawPath(path,mPaint);
+        path.moveTo(0,0);
+        path.quadTo(40,50,40,150);
+
         canvas.drawPath(path,mPaint);
 
+        canvas.drawCircle(300,900,200,mPaint);
+        mPaint.setTextSize(80);
+        canvas.drawText("dfad",200,100,mPaint);
     }
 }

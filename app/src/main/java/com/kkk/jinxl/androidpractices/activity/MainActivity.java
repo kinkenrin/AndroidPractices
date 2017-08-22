@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MessageListItem messageListItem = (MessageListItem) findViewById(R.id.mli_msg);
-        messageListItem.setMessageReaded(true);
+//        MessageListItem messageListItem = (MessageListItem) findViewById(R.id.mli_msg);
+//        messageListItem.setMessageReaded(true);
     }
 }
