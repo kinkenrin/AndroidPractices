@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.TypedValue;
 import android.widget.LinearLayout;
 
 import com.kkk.jinxl.androidpractices.R;
@@ -98,6 +99,11 @@ public class BubbleLinearLayout extends LinearLayout {
                 setUp(getWidth(), getHeight());
             }
         });
+    }
+
+    public void setArrowPosition(int position) {
+        mArrowPosition = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, position, getResources().getDisplayMetrics());
+        invalidate();
     }
 
 }

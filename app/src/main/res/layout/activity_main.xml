@@ -14,7 +14,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />-->
 
-    <!-- <com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout
+    <com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout
+        android:id="@+id/bll_bg"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginLeft="5dp"
@@ -23,7 +24,9 @@
          android:orientation="vertical"
          android:paddingLeft="10dp"
          android:paddingRight="2dp"
-         app:angle="4dp"
+         app:angle="8dp"
+         app:arrowWidth="10dp"
+         app:arrowHeight="12dp"
          app:arrowLocation="left">
 
          <TextView
@@ -39,7 +42,7 @@
              android:text="safdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfssafdsfsadfs"
              android:textSize="16sp"
              android:visibility="visible" />
-     </com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout>-->
+     </com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout>
 
 
     <!--<com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout

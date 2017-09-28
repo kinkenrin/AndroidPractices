@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.kkk.jinxl.androidpractices.R;
+import com.kkk.jinxl.androidpractices.weight.BubbleLinearLayout;
 import com.kkk.jinxl.androidpractices.weight.MessageListItem;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,31 +21,7 @@ public class MainActivity extends AppCompatActivity {
 //        MessageListItem messageListItem = (MessageListItem) findViewById(R.id.mli_msg);
 //        messageListItem.setMessageReaded(true);
 
-        final TextInputLayout textInputLayout = (TextInputLayout) findViewById(R.id.til_pwd);
-
-        EditText editText = textInputLayout.getEditText();
-//        textInputLayout.setHint("Password");
-
-        editText.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                if (s.length() > 4) {
-                    textInputLayout.setError("Password error");
-                    textInputLayout.setErrorEnabled(true);
-                } else {
-                    textInputLayout.setErrorEnabled(false);
-                }
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-
-        });
+        BubbleLinearLayout bll_bg = (BubbleLinearLayout) findViewById(R.id.bll_bg);
+        bll_bg.setArrowPosition(60);
     }
 }
