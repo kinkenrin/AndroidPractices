@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
 //        messageListItem.setMessageReaded(true);
 //        messageListItem.setMessageReaded(true);
 //        messageListItem.setMessageReaded(true);
+//        messageListItem.setMessageReaded(true);
+//        messageListItem.setMessageReaded(true);
+//        messageListItem.setMessageReaded(true);
+//        messageListItem.setMessageReaded(true);
 
         BubbleLinearLayout bll_bg = (BubbleLinearLayout) findViewById(R.id.bll_bg);
         bll_bg.setArrowPosition(60);
